@@ -11,6 +11,7 @@
     <h1 class="doc">Documentation</h1>
     <documentation/>
     <div id="folio"></div>
+    <div id="contact"></div>
   </div>
 </template>
 
