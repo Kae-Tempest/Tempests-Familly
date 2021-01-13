@@ -10,6 +10,8 @@
     <discord/>
     <h1 class="doc">Documentation</h1>
     <documentation/>
+    <div id="folio"></div>
+    <blabla/>
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import titre from '@/components/titre.vue';
 import discord from '@/components/discord';
 import news from '@/components/news';
 import documentation from "@/components/documentation";
+import blabla from "@/components/blabla"
 
 export default {
   name: 'App',
@@ -27,7 +30,8 @@ export default {
     titre,
     discord,
     news,
-    documentation
+    documentation,
+    blabla
   }
 }
 </script>
