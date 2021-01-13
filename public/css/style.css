@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Baby_School";
+    src: url(../assets/font/BabySchoolItalic.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #111;
+    color: #fff;
+}
+.title{
+    color: #FF0000;
+    font-family: Baby_School, serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px 0;
+}
+.container{
+    margin:auto;
+    width: 30%;
+}
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #222222;
+    padding: 3px 0;
+}
+.navbar li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 0;
+}
+.navbar a {
+    color: #FFF;
+    text-decoration: none;
+}
+.text{
+    font-family: Arial, serif;
+    width: 25%;
+    padding: 50px 10px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+}
+.discordimg {
+    margin-top: 200px;
+    width: 25%;
+}
+.discordiframe {
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
