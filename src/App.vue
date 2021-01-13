@@ -34,7 +34,7 @@ export default {
 
 <style>
 body {
-  background-color: #303030;
+  background-color: #111;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
