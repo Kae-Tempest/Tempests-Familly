@@ -1,5 +1,7 @@
 # tempestfamily
 
+Site de Kae-Tempest pour présentation des projets et new's des projets !
+
 ## Project setup
 ```
 npm install
