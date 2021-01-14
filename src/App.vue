@@ -11,6 +11,7 @@
     <h1 class="doc">Documentation</h1>
     <documentation/>
     <div id="folio"></div>
+    <folio/>
     <div id="contact"></div>
   </div>
 </template>
@@ -21,6 +22,8 @@ import titre from '@/components/titre.vue';
 import discord from '@/components/discord';
 import news from '@/components/news';
 import documentation from "@/components/documentation";
+import folio from "@/components/folio";
+
 
 export default {
   name: 'App',
@@ -30,13 +33,14 @@ export default {
     discord,
     news,
     documentation,
+    folio
   }
 }
 </script>
 
 <style>
 body {
-  background-color: #111;
+  background-color: #303030;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
