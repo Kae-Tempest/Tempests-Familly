@@ -39,6 +39,10 @@ export default {
 }
 </script>
 <style scoped>
+@font-face {
+  font-family: "Baby_School";
+  src: url(../assets/font/BabySchoolItalic.ttf);
+}
 #docu {
   margin-top: 10px;
   border: 2px solid lightskyblue;
@@ -51,6 +55,7 @@ export default {
   font-family: Arial, serif;
 }
 h3,h2{
+  font-family: Baby_School, serif;
   padding-top: 5px;
   font-size: 23px;
   text-align: center;

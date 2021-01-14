@@ -11,6 +11,7 @@
     <div id="doc"><h1 class="doc">Documentation</h1></div>
     <documentation/>
     <div id="folio"></div>
+    <descriptionproject/>
     <folio/>
     <div id="contact"></div>
   </div>
@@ -23,11 +24,13 @@ import discord from '@/components/discord';
 import news from '@/components/news';
 import documentation from "@/components/documentation";
 import folio from "@/components/folio";
+import Descriptionproject from "@/components/descriptionproject";
 
 
 export default {
   name: 'App',
   components: {
+    Descriptionproject,
     navigation,
     titre,
     discord,
@@ -39,6 +42,10 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "Baby_School";
+  src: url(./assets/font/BabySchoolItalic.ttf);
+}
 body {
   background-color: #303030;
   -ms-overflow-style: none; /* IE and Edge */
@@ -56,6 +63,7 @@ body::-webkit-scrollbar {
 }
 
 #app .doc {
+  font-family: Baby_School, serif;
   color: deepskyblue;
   font-size: 50px;
   margin-top: 300px;
