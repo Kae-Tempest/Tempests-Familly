@@ -19,8 +19,8 @@ export default {
 p{
   font-family: Baby_School, serif;
   display: inline-block;
-  padding-right: 100px;
-  margin-left: 120px;
+  padding-right: 120px;
+  margin-left: 150px;
   color: red;
   font-size: 30px;
   margin-top: 50px;
