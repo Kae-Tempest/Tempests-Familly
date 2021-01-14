@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 a {
-  padding: 10px;
+  padding: 20px;
 }
 </style>
