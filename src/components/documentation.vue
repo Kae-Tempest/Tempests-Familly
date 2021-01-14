@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="doc">
+    <div id="docu">
       <h2>Commands </h2><br>
       <p><i>!Help</i>: Permet de voir les différentes commandes.<br></p>
       <p><i>!Ticket</i>: Permet d'envoyer un ticket au membre du staff en cas de problème.</p><br>
@@ -39,7 +39,7 @@ export default {
 }
 </script>
 <style scoped>
-#doc {
+#docu {
   margin-top: 10px;
   border: 2px solid lightskyblue;
   padding: 10px;

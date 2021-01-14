@@ -8,7 +8,7 @@
     <news title="Patch V5" content="New's Content"/>
     <div id="discord"></div>
     <discord/>
-    <h1 class="doc">Documentation</h1>
+    <div id="doc"><h1 class="doc">Documentation</h1></div>
     <documentation/>
     <div id="folio"></div>
     <folio/>
@@ -58,6 +58,6 @@ body::-webkit-scrollbar {
 #app .doc {
   color: deepskyblue;
   font-size: 50px;
-  margin-top: 500px;
+  margin-top: 300px;
 }
 </style>
