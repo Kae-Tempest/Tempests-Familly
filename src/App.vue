@@ -14,6 +14,7 @@
     <descriptionproject/>
     <folio/>
     <div id="contact"></div>
+    <contact mail="kyllianlegrand78@gmail.com" link="https://github.com/Kae-Tempest"/>
   </div>
 </template>
 
@@ -25,11 +26,13 @@ import news from '@/components/news';
 import documentation from "@/components/documentation";
 import folio from "@/components/folio";
 import Descriptionproject from "@/components/descriptionproject";
+import Contact from "@/components/contact";
 
 
 export default {
   name: 'App',
   components: {
+    Contact,
     Descriptionproject,
     navigation,
     titre,
