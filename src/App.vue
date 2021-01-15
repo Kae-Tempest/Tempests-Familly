@@ -14,7 +14,7 @@
     <descriptionproject/>
     <folio/>
     <div id="contact"></div>
-    <contact mail="kyllianlegrand78@gmail.com" link="https://github.com/Kae-Tempest"/>
+    <contact link="https://github.com/Kae-Tempest"/>
   </div>
 </template>
 
