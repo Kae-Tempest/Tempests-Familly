@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-    <h1>{{ title }}</h1>
+    <h1>{{ titre }}</h1>
       <div class="container-content">
       <p><b><patchnote/></b></p>
       </div>
@@ -18,7 +18,7 @@ export default {
     patchnote
   },
   props: {
-    title: String,
+    titre: String,
     content: String
   }
 }

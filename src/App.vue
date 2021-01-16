@@ -5,7 +5,7 @@
       <navigation/>
     </div>
     <br>
-    <news title="Patch V5" content="New's Content"/>
+    <news titre="Patch V5" content="New's Content"/>
     <div id="discord"></div>
     <discord/>
     <div id="doc"><h1 class="doc">Documentation</h1></div>
@@ -14,7 +14,7 @@
     <descriptionproject/>
     <folio/>
     <div id="contact"></div>
-    <contact link="https://github.com/Kae-Tempest"/>
+    <contact/>
   </div>
 </template>
 

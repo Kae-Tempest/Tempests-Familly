@@ -1,10 +1,10 @@
 <template>
-  <h1 class="title">{{ titre }}</h1>
+  <h1 class="titre">{{ titre }}</h1>
 </template>
 
 <script>
 export default {
-  name: 'title',
+  name: 'titre',
   props: {
     titre: String
   }

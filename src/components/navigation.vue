@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: 'nav',
+  name: 'navigationn',
   data() {
     return {
       links: [
