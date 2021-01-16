@@ -20,7 +20,7 @@ p{
   font-family: Baby_School, serif;
   display: inline-block;
   padding-right: 120px;
-  margin-left: 150px;
+  margin-left: 130px;
   color: red;
   font-size: 30px;
   margin-top: 50px;

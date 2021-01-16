@@ -14,12 +14,12 @@ export default {
     return {
       links: [
         {
-          'src': "@../../assets/img/DaiKenjaProject.png",
+          'src': "./assets/img/DaiKenjaProject.png",
           'alt': 'Dai Kenja Projet',
           'href': 'https://github.com/Kae-Tempest/daikenja',
         },
         {
-          'src': "@../..//assets/img/tempestfamilyproject.png",
+          'src': "./assets/img/tempestfamilyproject.png",
           'alt': 'Tempest\'s Family VueJs project',
           'href': 'https://github.com/Kae-Tempest/Tempests-Familly',
         }
