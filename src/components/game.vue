@@ -1,10 +1,10 @@
 <template>
 <div id="game">
   <div class="chat">
-
+<p>futur chat</p>
   </div>
   <label>
-    <input type="text">
+    <input type="text" placeholder="Entrée du texte">
   </label>
 </div>
 </template>
