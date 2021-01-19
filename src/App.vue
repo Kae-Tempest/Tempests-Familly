@@ -8,6 +8,8 @@
     <news titre="Patch V5" content="New's Content"/>
     <div id="discord"></div>
     <discord/>
+    <div id="game"></div>
+    <game/>
     <div id="doc"><h1 class="doc">Documentation</h1></div>
     <documentation/>
     <div id="folio"></div>
@@ -27,7 +29,7 @@ import documentation from "@/components/documentation";
 import folio from "@/components/folio";
 import Descriptionproject from "@/components/descriptionproject";
 import Contact from "@/components/contact";
-
+import game from "@/components/game";
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
     discord,
     news,
     documentation,
-    folio
+    folio,
+    game
   }
 }
 </script>
