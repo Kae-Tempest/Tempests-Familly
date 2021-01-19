@@ -72,6 +72,6 @@ body::-webkit-scrollbar {
   font-family: Baby_School, serif;
   color: deepskyblue;
   font-size: 50px;
-  margin-top: 300px;
+  margin-top: 50px;
 }
 </style>
