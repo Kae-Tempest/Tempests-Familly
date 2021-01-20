@@ -1,9 +1,10 @@
 <template>
   <div id="game">
     <div class="chat">
+      <p>{{ msg }}</p>
     </div>
     <label>
-      <input id="inputchat" v-on:keyup.enter="sendMessage()"  type="text" placeholder="Entrée du texte">
+      <input id="inputChat" v-on:keyup.enter="sendMessage()"  type="text" placeholder="Entrée du texte">
     </label>
   </div>
 </template>
@@ -18,12 +19,15 @@ export default {
   },
   methods: {
     sendMessage: function() {
-      let input = document.getElementById("inputchat").value;
-      console.log(input)
-      const clear = document.getElementById("inputchat").value = ''
+      let msg= '';
+      let input = document.getElementById("inputChat").value;
+      const clear = document.getElementById("inputChat").value = ''
       console.log(clear)
+      msg += input + '\n'
+      document.getElementById("ChatContainer").innerHTML = msg ;
     }
-  },
+  }
+  /*,
   created: function () {
     console.log("Starting connection to WebSocket Server");
     this.connection = new WebSocket("wws://echo.websocket.org");
@@ -36,7 +40,7 @@ export default {
       console.log(event);
       console.log("Successfully connected to the echo websocket server...")
     }
-  }
+  }*/
 }
 </script>
 
