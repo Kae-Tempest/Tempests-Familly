@@ -1,7 +1,7 @@
 <template>
   <div id="game">
     <div class="chat">
-      <p>{{ msg }}</p>
+      <p id="ChatContainer"></p>
     </div>
     <label>
       <input id="inputChat" v-on:keyup.enter="sendMessage()"  type="text" placeholder="Entrée du texte">
