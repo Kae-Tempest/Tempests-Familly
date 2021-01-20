@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Baby_School";
-    src: url(src/assets/font/BabySchoolItalic.ttf);
+    src: url(~@/assets/font/BabySchoolItalic.ttf);
 }
 html{
     scroll-behavior: smooth;

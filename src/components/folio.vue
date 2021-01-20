@@ -5,6 +5,9 @@
 </template>
 
 <script>
+import DaiKenjaProject from '@/assets/img/DaiKenjaProject.png'
+import tempestfamilyproject from '@/assets/img/tempestfamilyproject.png'
+
 export default {
   name: 'folio',
   props: {
@@ -14,12 +17,12 @@ export default {
     return {
       links: [
         {
-          'src': "./assets/img/DaiKenjaProject.png",
+          'src': DaiKenjaProject,
           'alt': 'Dai Kenja Projet',
           'href': 'https://github.com/Kae-Tempest/daikenja',
         },
         {
-          'src': "./assets/img/tempestfamilyproject.png",
+          'src': tempestfamilyproject,
           'alt': 'Tempest\'s Family VueJs project',
           'href': 'https://github.com/Kae-Tempest/Tempests-Familly',
         }

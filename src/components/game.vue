@@ -1,30 +1,31 @@
 <template>
-  <div id="game">
+  <div>
     <div class="chat">
-      <p id="ChatContainer"></p>
+      <ul>
+        <li v-for="message in messages" :key="message.id">{{ message.value }}</li>
+      </ul>
     </div>
-    <label>
-      <input id="inputChat" v-on:keyup.enter="sendMessage()"  type="text" placeholder="Entrée du texte">
-    </label>
+    <form @submit.prevent="sendMessage">
+        <input v-model="messageInput" @keyup.enter="sendMessage" type="text" placeholder="Entrée du texte">
+    </form>
   </div>
 </template>
 
 <script>
+let id = 0;
 export default {
   name: "game",
-  data: function (){
+  data() {
     return {
-      connection: null
+      connection: null,
+      messageInput: '',
+      messages: [],
     }
   },
   methods: {
-    sendMessage: function() {
-      let msg= '';
-      let input = document.getElementById("inputChat").value;
-      const clear = document.getElementById("inputChat").value = ''
-      console.log(clear)
-      msg += input + '\n'
-      document.getElementById("ChatContainer").innerHTML = msg ;
+    sendMessage() {
+       this.messages.push({ id: id++, value: this.messageInput })
+       this.messageInput = ''
     }
   }
   /*,
