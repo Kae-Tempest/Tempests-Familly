@@ -7,6 +7,7 @@
 <script>
 import DaiKenjaProject from '@/assets/img/DaiKenjaProject.png'
 import tempestfamilyproject from '@/assets/img/tempestfamilyproject.png'
+import DaikenjaIRC from '@/assets/img/DaikenjaIRC.png'
 
 export default {
   name: 'folio',
@@ -25,6 +26,11 @@ export default {
           'src': tempestfamilyproject,
           'alt': 'Tempest\'s Family VueJs project',
           'href': 'https://github.com/Kae-Tempest/Tempests-Familly',
+        },
+        {
+          'src': DaikenjaIRC,
+          'alt': 'Dai Kenja Projet on Twitch',
+          'href': 'https://github.com/Kae-Tempest/DaiKenjaIRC'
         }
       ]
     }

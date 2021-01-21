@@ -46,11 +46,6 @@ export default {
 </script>
 
 <style scoped>
-#game {
-  margin-top: 250px;
-  display: block;
-}
-
 .chat {
   width: 800px;
   height: 500px;
@@ -58,6 +53,10 @@ export default {
   margin-left: 30%;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+.chat li {
+  max-width: 750px;
+  max-height: 450px;
 }
 
 input {

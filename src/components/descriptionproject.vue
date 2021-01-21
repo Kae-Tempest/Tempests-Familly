@@ -2,6 +2,7 @@
   <div>
     <p>Bot discord RPG</p>
     <p>Site WEB en VueJS</p>
+    <p>Bot Twitch IRC</p>
   </div>
 </template>
 
@@ -19,8 +20,8 @@ export default {
 p{
   font-family: Baby_School, serif;
   display: inline-block;
-  padding-right: 120px;
-  margin-left: 130px;
+  padding-right: 150px;
+  margin-left: 120px;
   color: red;
   font-size: 30px;
   margin-top: 50px;
