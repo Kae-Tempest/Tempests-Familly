@@ -54,10 +54,6 @@ export default {
   margin-bottom: 10px;
   border-radius: 10px;
 }
-.chat li {
-  max-width: 750px;
-  max-height: 450px;
-}
 
 input {
   width: 500px;
