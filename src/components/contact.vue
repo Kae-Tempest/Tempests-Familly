@@ -1,8 +1,9 @@
 <template>
   <div id="contact">
-    <a href="mailto:katsuhiko.tempest@gmail.com"><img class="gmail" src="@/assets/img/gmail.png" alt="Gmail Icon"/></a>
-    <a href="https://www.twitch.tv/katsuhiiko" target="_blank"><img class="twitch" src="@/assets/img/social-twitch-circle-512.png" alt="Twitch Icon"/></a>
-    <a href="https://github.com/Kae-Tempest" target="_blank"><img class="git" src="@/assets/img/github.png" alt="GitHub Icon"/></a>
+    <a href="mailto:katsuhiko.tempest@gmail.com"><img class="image" src="@/assets/img/gmail.png" alt="Gmail Icon"/></a>
+    <a href="https://www.twitch.tv/katsuhiiko" target="_blank"><img class="image" src="@/assets/img/social-twitch-circle-512.png" alt="Twitch Icon"/></a>
+    <a href="https://github.com/Kae-Tempest" target="_blank"><img class="image" src="@/assets/img/github.png" alt="GitHub Icon"/></a>
+    <a href="https://discord.gg/V9t5k5z" target="_blank"><img class="image" src="@/assets/img/discord icon.png" alt="Discord icon"></a>
   </div>
 </template>
 
@@ -37,15 +38,7 @@ export default {
 #contact p {
 }
 
-.gmail {
-  width: 3%;
-}
-
-.git {
-  width: 3%;
-}
-
-.twitch{
+.image {
   width: 3%;
 }
 </style>
