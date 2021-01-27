@@ -11,9 +11,6 @@ import DaikenjaIRC from '@/assets/img/DaikenjaIRC.png'
 
 export default {
   name: 'folio',
-  props: {
-    desc: String
-  },
   data() {
     return {
       links: [
