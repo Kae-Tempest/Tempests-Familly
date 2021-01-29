@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-    <h1>{{ titre }}</h1>
+    <p class="title">{{ titre }}</p>
       <div class="container-content">
       <p><b><patchnote/></b></p>
       </div>
@@ -23,11 +23,16 @@ export default {
   }
 }
 </script>
-
 <style scoped>
-h1{
+@font-face {
+  font-family: "Baby_School";
+  src: url('~@/assets/font/BabySchoolItalic.ttf');
+}
+.title{
+  font-family: "Baby_School";
   font-size: 35px;
   color: aqua;
+  text-align: center;
 }
 .container{
   border-radius: 10px;

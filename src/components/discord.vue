@@ -7,8 +7,7 @@
         secondaire ainsi qu'une armure) et pour finir, un système de combat avec des monstres et/ou des boss.<br>
         Pour rejoindre le serveur, rien de plus simple, il suffit de cliquer sur le logo de discord !
       </p>
-      <iframe class="discordiframe" src="https://discord.com/widget?id=762363733539946496&theme=dark"></iframe>
-      <a href="https://discord.gg/V9t5k5z" target="_blank"><img src="../assets/img/Discordbutton.png" class="discordimg" alt="Image Discord"/></a>
+      <a href="https://discord.gg/V9t5k5z" target="_blank"><img src="../assets/img/Discord-Logo+Wordmark-White.png" class="discordimg" alt="Image Discord"/></a>
     </div>
 </template>
 

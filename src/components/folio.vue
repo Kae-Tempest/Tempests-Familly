@@ -8,6 +8,7 @@
 import DaiKenjaProject from '@/assets/img/DaiKenjaProject.png'
 import tempestfamilyproject from '@/assets/img/tempestfamilyproject.png'
 import DaikenjaIRC from '@/assets/img/DaikenjaIRC.png'
+import DaiKenjaElectron from '@/assets/img/DaiKenjaElectron.png'
 
 export default {
   name: 'folio',
@@ -28,6 +29,11 @@ export default {
           'src': DaikenjaIRC,
           'alt': 'Dai Kenja Projet on Twitch',
           'href': 'https://github.com/Kae-Tempest/DaiKenjaIRC'
+        },
+        {
+          'src': DaiKenjaElectron,
+          'alt': 'Dai Kenja Electron project',
+          'href': 'https://github.com/Kae-Tempest/Dai-Kenja-Electron'
         }
       ]
     }
@@ -36,7 +42,11 @@ export default {
 </script>
 
 <style scoped>
+#folio{
+  margin-top: 50px;
+}
 a {
-  padding: 20px;
+  display: inline-block;
+  padding: 10px;
 }
 </style>
