@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="gamediv">
     <div class="chat">
       <ul>
         <li v-for="message in messages" :key="message.id">{{ message.value }}</li>
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style scoped>
+
 .chat {
   width: 800px;
   height: 500px;
