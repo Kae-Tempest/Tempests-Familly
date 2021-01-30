@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+      <Oauth/>
     <div class="container">
       <titre titre="Tempest's Family"/>
       <navigation/>
@@ -28,6 +29,8 @@ import documentation from "@/components/documentation";
 import folio from "@/components/folio";
 import Contact from "@/components/contact";
 import game from "@/components/game";
+import Oauth from './components/Oauth.vue';
+
 
 export default {
   name: 'App',
@@ -39,7 +42,8 @@ export default {
     news,
     documentation,
     folio,
-    game
+    game,
+    Oauth
   }
 }
 </script>
