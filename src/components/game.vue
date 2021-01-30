@@ -57,6 +57,7 @@ export default {
 }
 .chat li {
   max-width: 800px;
+  word-break: break-word;
 }
 input {
   width: 500px;
