@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueChatScroll from 'vue-chat-scroll'
+Vue.use(VueChatScroll)
 
 Vue.config.productionTip = false
 
