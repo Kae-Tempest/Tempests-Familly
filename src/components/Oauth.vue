@@ -45,5 +45,6 @@ form {
     height: 18px;
     color: white;
     background-color: #101010;
+    border: 0;
 }
 </style>

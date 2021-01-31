@@ -4,7 +4,7 @@
         <div class="message" v-for="message in messages" :key="message.id">{{ message.value }}</div>
     </div>
     <form @submit.prevent="sendMessage">
-        <input v-model="messageInput" @keyup.enter="sendMessage" type="text" placeholder="Entrée du texte">
+        <input v-model="messageInput" @keyup.enter="sendMessages(sendMessage)" type="text" placeholder="Entrée du texte">
     </form>
   </div>
 </template>
@@ -33,12 +33,11 @@ export default {
   },
   created: function () {
     console.log("Starting connection to WebSocket Server");
-    //this.connection = new WebSocket("wws://echo.websocket.org");
-    this.connection = new WebSocket("wws://localhost:8000/");
+    this.connection = new WebSocket("wss://echo.websocket.org");
 
     this.connection.onopen = function (event) {
       console.log(event);
-      console.log("Successfully connected to the echo websocket server...")
+      console.log("Successfully connected to the echo websocket server")
     }
         this.connection.onmessage = function (event){
       console.log(event);
