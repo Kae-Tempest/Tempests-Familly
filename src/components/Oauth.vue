@@ -2,8 +2,7 @@
 <div id="Oauth">
     <form @submit.prevent="submit()">
         <div class="divlog">
-        <button class="login">Log in</button>
-        <button class="signin">sign in</button>
+        <button class="login">Log in/Sign In</button>
         </div>
     </form>
 </div>
@@ -46,6 +45,5 @@ form {
     height: 18px;
     color: white;
     background-color: #101010;
-    border: 0;
 }
 </style>

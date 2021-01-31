@@ -18,7 +18,7 @@ body {
 }
 .container{
     margin:auto;
-    width: 35%;
+    width: 38%;
 }
 .navbar {
     width: 100%;
@@ -41,18 +41,4 @@ body {
 .navbar a {
     color: #FFF;
     text-decoration: none;
-}
-.text{
-    font-family: Arial, serif;
-    width: 25%;
-    padding: 50px 100px;
-    float: left;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 100px;
-}
-.discordimg {
-    margin: 100px;
-    margin-right: 100px;
-    width: 25%;
 }

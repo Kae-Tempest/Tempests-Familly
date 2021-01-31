@@ -25,24 +25,25 @@ export default {
     sendMessage() {
        this.messages.push({ id: id++, value: this.messageInput })
        this.messageInput = ''
+    },
+    sendMessages: function(messages) {
+      console.log(this.connection);
+      this.connection.send(messages)
     }
-  }
-
-  //TODO WEBSOCKET CONNECTION 
-  /*,
+  },
   created: function () {
     console.log("Starting connection to WebSocket Server");
-    this.connection = new WebSocket("wws://echo.websocket.org");
-
-    this.connection.onmessage = function (event){
-      console.log(event);
-    }
+    //this.connection = new WebSocket("wws://echo.websocket.org");
+    this.connection = new WebSocket("wws://localhost:8000/");
 
     this.connection.onopen = function (event) {
       console.log(event);
       console.log("Successfully connected to the echo websocket server...")
     }
-  }*/
+        this.connection.onmessage = function (event){
+      console.log(event);
+    }
+  }
 }
 </script>
 

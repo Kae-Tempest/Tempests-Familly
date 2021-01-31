@@ -16,3 +16,21 @@ export default {
   name: 'discord'
 }
 </script>
+
+<style scoped>
+.text{
+    font-family: Arial, serif;
+    width: 25%;
+    padding: 50px 100px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.discordimg {
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 25%;
+}
+</style>
