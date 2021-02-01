@@ -3,46 +3,20 @@
       <Oauth/>
     <div class="container">
       <titre titre="Tempest's Family"/>
-      <navigation/>
     </div>
-    <br>
-    <news titre="Patch V5" content="New's Content"/>
-    <div id="discord"></div>
-    <discord/>
-    <div id="game"></div>
-    <game/>
-    <div id="doc"><h1 class="doc">Documentation</h1></div>
-    <documentation/>
-    <div id="folio"></div>
-    <folio/>
-    <div id="contact"></div>
-    <contact/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import navigation from '@/components/navigation.vue';
 import titre from '@/components/titre.vue';
-import discord from '@/components/discord';
-import news from '@/components/news';
-import documentation from "@/components/documentation";
-import folio from "@/components/folio";
-import Contact from "@/components/contact";
-import game from "@/components/game";
 import Oauth from './components/Oauth.vue';
 
 
 export default {
   name: 'App',
   components: {
-    Contact,
-    navigation,
     titre,
-    discord,
-    news,
-    documentation,
-    folio,
-    game,
     Oauth
   }
 }

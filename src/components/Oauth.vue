@@ -1,45 +1,21 @@
 <template>
 <div id="Oauth">
-    <form @submit.prevent="submit()">
-        <div class="divlog">
-        <button class="login">Log in/Sign In</button>
-        </div>
-    </form>
+    <div class="divlog">
+        <router-link tag="button" to="/AuthWrapper">Log in/Sign In</router-link>
+    </div>
 </div>
 </template>
 
 <script>
-export default {
-    data(){
-        return {
-                email: "",
-                password: ""
-            };
-        },
-    methods: {
-        submit() {
-            this.$emit("submit",{
-                email: this.email,
-                password: this.password
-            });
-            this.email = '',
-            this.password = ''
-        }
-    }
-};
 </script>
 
 <style scoped>
-form {
-    display: inline;
-    text-align: right;
+.divlog button {
+    position: absolute;
     top: 5px;
     right: 5px;
-}
-.divlog{
-    padding-top: 5px;
-}
-.divlog button {
+    display: inline;
+    text-align: center;
     width: 100px;
     border-radius: 10px;
     height: 18px;
