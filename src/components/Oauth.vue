@@ -17,7 +17,6 @@
     text-align: center;
     width: 100px;
     border-radius: 10px;
-    height: 18px;
     color: white;
     background-color: #101010;
     border: 0;
@@ -25,6 +24,7 @@
 .button1{
     top: 5px;
     right: 105px;
+    margin-right: 5px;
 }
 .button2{
     top: 5px;
