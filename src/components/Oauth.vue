@@ -1,7 +1,8 @@
 <template>
 <div id="Oauth">
     <div class="divlog">
-        <router-link tag="button" to="/AuthWrapper">Log in/Sign In</router-link>
+        <router-link class="button1" tag="button" to="/" >Home</router-link>
+        <router-link class="button2" tag="button" to="/AuthWrapper">Log in/Sign In</router-link>
     </div>
 </div>
 </template>
@@ -12,8 +13,6 @@
 <style scoped>
 .divlog button {
     position: absolute;
-    top: 5px;
-    right: 5px;
     display: inline;
     text-align: center;
     width: 100px;
@@ -22,5 +21,13 @@
     color: white;
     background-color: #101010;
     border: 0;
+}
+.button1{
+    top: 5px;
+    right: 105px;
+}
+.button2{
+    top: 5px;
+    right: 5px;
 }
 </style>

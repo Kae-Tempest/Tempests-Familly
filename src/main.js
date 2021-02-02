@@ -13,8 +13,6 @@ import '@/css/style.css'
 import AuthWrapper from '@/pages/AuthWrapper.vue';
 import Home from '@/pages/home.vue';
 
-
-
 const routes = [
     { path: '/AuthWrapper', component: AuthWrapper },
     { path: '/', component: Home }
