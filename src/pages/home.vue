@@ -15,6 +15,7 @@
     <folio/>
     <div id="contact"></div>
     <contact/>
+    <router-view @authenticated="setAuthenticated" />
   </div>
 </template>
 
@@ -36,8 +37,18 @@ export default {
     documentation,
     folio,
     game,
+  },
+  data() {
+    return {
+      authenticaded: false,
+      mockAccount: {
+        logemail: "katsuhiko.tempest@gmail.com",
+        logpassword: "root"
+      }
+    }
   }
 }
+
 </script>
 
 <style>

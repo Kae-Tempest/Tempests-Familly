@@ -13,6 +13,20 @@ import '@/css/style.css'
 import AuthWrapper from '@/pages/AuthWrapper.vue';
 import Home from '@/pages/home.vue';
 
+
+/*const sqlite3 = require("sqlite3").verbose();
+
+let db = new sqlite3.Database('../db/bdd.db', (err) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    console.log('Connected to the in-memory SQlite database.');
+  });
+
+  let email = db.all('Select * from users')
+  console.log(email)
+  */
+
 const routes = [
     { path: '/AuthWrapper', component: AuthWrapper },
     { path: '/', component: Home }
