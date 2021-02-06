@@ -9,11 +9,6 @@
 
 <script>
 export default {
-    mounted() {
-            if(!this.authenticated) {
-                this.$router.replace({ name: "/" });
-            }
-        },
         methods: {
             setAuthenticated(status) {
                 this.authenticated = status;
