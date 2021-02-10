@@ -4,7 +4,7 @@
     <navigation/>
     </div>
     <br>
-    <news titre="Patch V5" content="New's Content"/>
+    <news titre="Patch V6" content="New's Content"/>
     <div id="discord"></div>
     <discord/>
     <div id="game"></div>
