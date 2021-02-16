@@ -46,8 +46,8 @@ export default {
   src: url(../assets/font/BabySchoolItalic.ttf);
 }
 #docu {
-  margin-top: 10px;
-  border: 2px solid lightskyblue;
+  margin-top: 15px;
+  border: 2px solid rgb(48, 176, 255);
   padding: 10px;
   border-radius: 30px;
   text-align: left;
