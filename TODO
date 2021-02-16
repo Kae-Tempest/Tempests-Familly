@@ -1,0 +1,7 @@
+
+AuthWrapper:
+  ✔ oauth Discord @done(21-02-16 19:25)
+Game:
+  ☐ Connexion WebSocket (serveur perso)
+  ✔ oauth Discord @done(21-02-16 19:25)
+  ☐ Connexion MongoDB
