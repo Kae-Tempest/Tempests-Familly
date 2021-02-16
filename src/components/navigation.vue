@@ -14,7 +14,6 @@ export default {
     return {
       links: [
         {'name': 'Discord', 'href': '#discord'},
-        {'name': 'Game', 'href': '#game'},
         {'name': 'Documentation', 'href': '#doc'},
         {'name': 'Folio', 'href': '#folio'},
         {'name': 'Contact', 'href': '#contact'}
