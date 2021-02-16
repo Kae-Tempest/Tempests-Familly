@@ -7,9 +7,7 @@
     <news titre="Patch V6" content="New's Content"/>
     <div id="discord"></div>
     <discord/>
-    <div id="game"></div>
-    <game/>
-    <div id="doc"><h1 class="doc">Documentation</h1></div>
+    <div id="doc"><h2 class="doc">Documentation</h2></div>
     <documentation/>
     <div id="folio"></div>
     <folio/>
@@ -26,7 +24,6 @@ import news from '@/components/news';
 import documentation from "@/components/documentation";
 import folio from "@/components/folio";
 import Contact from "@/components/contact";
-import game from "@/components/game";
 
 export default {
   components: {
@@ -36,7 +33,6 @@ export default {
     news,
     documentation,
     folio,
-    game,
   },
   data() {
     return {
@@ -51,6 +47,8 @@ export default {
 
 </script>
 
-<style>
-
+<style scoped>
+#doc h2{
+  margin-top: 200px;
+}
 </style>

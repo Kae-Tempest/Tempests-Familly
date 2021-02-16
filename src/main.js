@@ -12,10 +12,12 @@ import '@/css/style.css'
 
 import AuthWrapper from '@/pages/AuthWrapper.vue';
 import Home from '@/pages/home.vue';
+import Game from '@/pages/Game.vue'
 
 const routes = [
     { path: '/AuthWrapper', component: AuthWrapper },
-    { path: '/', component: Home }
+    { path: '/', component: Home },
+    { path: '/Game', component: Game}
 ]
 
 const router = new VueRouter({
