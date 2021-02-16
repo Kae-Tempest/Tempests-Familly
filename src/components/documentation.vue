@@ -19,6 +19,8 @@
       <p><i>!Ping</i>: Permet de voir le ping du Bot et de l'API.<br></p>
       <h3>RPG </h3><br>
       <p><i>!Battle</i>: Permet de lancer un combat avec le nom du monstre que vous voulez combattre.<br></p>
+      <p><i>!Battleduo</i>: Permet de lancer un combat avec son teammate ( il faut le ping )<br></p>
+      <p><i>!Teams</i>: Permet de créer, dissoudre ou voir son groupe !<br></p>
       <p><i>!Equip</i>: Permet de s'équiper d'un objet avec le nom de celui-ci dans son inventaire.<br></p>
       <p><i>!Uequip</i>: Permet de retirer un objet avec son nom quand il est équipé.<br></p>
       <p><i>!Heal</i>: Heal le joueur selon son niveau. <b>(commande payante en po)</b><br></p>
@@ -28,7 +30,7 @@
       <p><i>!Profil</i>: Affiche le profil du joueur.<br></p>
       <p><i>!Ressusrection</i>: Permet de retourner à la vie si on meurt au combat. <b>(Commande payante en po)</b><br></p>
       <p><i>!Setup</i>: Permet de créer son personnage.<br></p>
-      <p><i>!Use</i>: Permet des objets de type => <b>potion</b></p>
+      <p><i>!Use</i>: Permet des objets de type : <b>Potion</b> et <b>Scroll</b></p>
     </div>
   </div>
 </template>
