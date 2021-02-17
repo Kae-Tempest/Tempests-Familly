@@ -3,7 +3,7 @@
     <div class="divlog">
         <router-link class="button1" tag="button" to="/" >Home</router-link>
         <router-link class="button2" tag="button" to="/Game">Game</router-link>
-        <router-link class="button3" tag="button" to="/AuthWrapper">Log in/Sign In</router-link>
+        <router-link class="button3" tag="button" to="/AuthWrapper">Log in</router-link>
     </div>
 </div>
 </template>
