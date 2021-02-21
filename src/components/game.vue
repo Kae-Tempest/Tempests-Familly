@@ -5,12 +5,18 @@
     </div>
     <form @submit.prevent="sendMessage" id="messagebox">
         <input v-model="messageInput" @keyup.enter="sendMessages(sendMessage)" type="text" placeholder="Entrée du texte">
-        <button onclick="sendMessages(sendMessage)">Send</button>
+        <button @onclick="sendMessages(sendMessage)">Send</button>
     </form>
   </div>
 </template>
 
-<script> 
+<script>
+
+const socket = require('@/socket.js')
+
+socket.onAny((event, ...args) => {
+  console.log(event, args);
+});
 
 let id = 0;
 export default {
