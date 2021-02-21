@@ -3,8 +3,9 @@
     <div class="chat" v-chat-scroll="{smooth: true, notSmoothOnInit: true}">
         <div class="message" v-for="message in messages" :key="message.id">{{ message.value }}</div>
     </div>
-    <form @submit.prevent="sendMessage">
+    <form @submit.prevent="sendMessage" id="messagebox">
         <input v-model="messageInput" @keyup.enter="sendMessages(sendMessage)" type="text" placeholder="Entrée du texte">
+        <button onclick="sendMessages(sendMessage)">Send</button>
     </form>
   </div>
 </template>
@@ -83,11 +84,15 @@ export default {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
 	background-color: #AA0000;
 }
-
-input {
+#messagebox input {
   width: 500px;
   height: 20px;
   border-radius: 10px;
   margin-left: 30px;
+}
+#messagebox button {
+margin-left: 10px;
+border-radius: 10px;
+height: 25px;
 }
 </style>
